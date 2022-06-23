@@ -17,6 +17,9 @@ Here are some ideas to get you started:
 
 <p align="center">
     ~ Assalamu'alaikum Wa Rahmatullahi Wa Barakatuh ~
+    <br>
+        <img src="https://cdn.discordapp.com/emojis/829004143682650157.gif?" width="30"/>
+    </br>
 </p>
 
 Hello, I am **Kiagus Muhammad Arsyad** 🙏🏻
@@ -29,6 +32,8 @@ I've studied online course on [Dicoding](https://www.dicoding.com/), [Coursera](
 
 If you are interested in getting to know me, feel free to reach me with check my [Linkedin](https://www.linkedin.com/in/kmarsyad/)!
 
+------------
+### Github Statistic
 <p align="left">
 <a href="https://github.com/arsyadCode">
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=arsyadCode&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
