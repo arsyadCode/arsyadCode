@@ -28,3 +28,10 @@ One of my recent experience is [Certified Independent Study of Machine Learning]
 I've studied online course on [Dicoding](https://www.dicoding.com/), [Coursera](https://www.coursera.org/), [Udemy](https://www.udemy.com/), and [DQLab](https://dqlab.id/) since 2020 that I am passionate to improve my programming skill.
 
 If you are interested in getting to know me, feel free to reach me with check my [Linkedin](https://www.linkedin.com/in/kmarsyad/)!
+
+<p align="left">
+<a href="https://github.com/arsyadCode">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=arsyadCode&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=arsyadCode&layout=compact&langs_count=8&theme=algolia"/>
+</a>
+</p>
