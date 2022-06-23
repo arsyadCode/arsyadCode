@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 
 
 <p align="center">
-    // ~ Assalamu'alaikum Wa Rahmatullahi Wa Barakatuh ~
+    ~ Assalamu'alaikum Wa Rahmatullahi Wa Barakatuh ~
 </p>
 
 Hello, I am **Kiagus Muhammad Arsyad** 🙏🏻
