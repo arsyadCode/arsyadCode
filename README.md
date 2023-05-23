@@ -24,11 +24,11 @@ Here are some ideas to get you started:
 
 Hello, I am **Kiagus Muhammad Arsyad** 🙏🏻
 
-> I am an undergraduate student at Pertamina University, Indonesia, who have willingness to become Data Scientist and Engineer also have a Technopreneur’s desire. I am open-minded and have a curiosity about what data do also encourage people in teamwork for one mission to be succeed together. I am adaptable with other people and able to work in science or IT related to analytics and data. With hard and soft skills I have learned, used and polished the last few years, I would like pursue and deep dive even further can make other people in the future got also the benefit such as get a job opportunity in IoT especially in term of Data Science.
+> I am an undergraduate Computer Science student at Universitas Pertamina, Indonesia, who have the willingness to become Data Analyst and Data Scientist. I also have a Technopreneur’s desire. I can encourage people to teamwork with one mission to succeed together. I am adaptable to other people and able to work in science or IT related to analytics and data. With hard and soft skills I have learned, used and polished over the last few years, I would like to pursue and deep dive even further, therefore can make other people in the future also get the benefit such as getting a job opportunity in Big Data, especially in term of Data Science.
 
-One of my recent experience is [Certified Independent Study of Machine Learning](https://www.linkedin.com/company/bangkit-academy/mycompany/).
+One of my recent experience is [Certified Independent Study of Machine Learning](https://www.linkedin.com/company/bangkit-academy/mycompany/) with my project that you can see in this [repository](https://github.com/arsyadCode/TuRu-ML_CC).
 
-I've studied online course on [Dicoding](https://www.dicoding.com/), [Coursera](https://www.coursera.org/), [Udemy](https://www.udemy.com/), and [DQLab](https://dqlab.id/) since 2020 that I am passionate to improve my programming skill.
+I've studied online course on [Dicoding](https://www.dicoding.com/), [Coursera](https://www.coursera.org/), [Udemy](https://www.udemy.com/), [DQLab](https://dqlab.id/), and [AI Planet](https://aiplanet.com/) since 2020 that I am passionate to improve my programming skill.
 
 If you are interested in getting to know me, feel free to reach me with check my [Linkedin](https://www.linkedin.com/in/kmarsyad/)!
 
