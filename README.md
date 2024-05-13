@@ -12,7 +12,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-![myBanner](My 1st LinkedIn Banner.png)
+![myBanner](Banner.png)
 
 
 <p align="center">
