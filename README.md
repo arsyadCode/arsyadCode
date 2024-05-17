@@ -34,7 +34,7 @@ If you are interested in getting to know me, feel free to reach me with check my
 
 ------------
 ### Github Statistic
-<p align="left">
+<p align="center">
 <a href="https://github.com/arsyadCode">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=arsyadCode&rank_icon=github&theme=tokyonight"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arsyadCode&layout=donut&theme=tokyonight"/>
