@@ -16,7 +16,7 @@
   <em>~ Assalamu'alaikum Warahmatullahi Wabarakatuh ~</em>
 </p>
 
-<h1 align="center">Kiagus Muhammad Arsyad</h1>
+<!-- <h1 align="center">Kiagus Muhammad Arsyad</h1> -->
 
 <p align="center">
   <!-- Typing animation cycling the five roles -->
@@ -40,8 +40,7 @@
   <a href="mailto:muhammadarsyadv2@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <!-- TODO: replace with your portfolio URL when ready (defaults to LinkedIn) -->
-  <a href="https://www.linkedin.com/in/kmarsyad/">
+  <a href="https://kmarsyad-portfolio.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Portfolio" />
   </a>
 </p>
