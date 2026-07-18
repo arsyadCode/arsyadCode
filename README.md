@@ -10,7 +10,7 @@
 
 <!-- ══════════════════════════ HERO / HEADER ══════════════════════════ -->
 <a href="https://github.com/arsyadCode">
-  <img src="./Banner.jpg" alt="Kiagus Muhammad Arsyad — banner" width="100%" />
+  <img src="./Banner.png" alt="Kiagus Muhammad Arsyad — banner" width="100%" />
 </a>
 
 <p align="center">
@@ -38,7 +38,7 @@
   <a href="https://www.linkedin.com/in/kmarsyad/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:muhammadarsyadv2@gmail.com">
+  <a href="mailto:muhammadarsyadv1@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://kmarsyad-portfolio.vercel.app/">
@@ -526,7 +526,7 @@
 - 🔥 **Current focus:** clearer docs for open-source ML tools · experimenting with AI agents &amp; automation
 - 🤝 **Looking to collaborate on:** AI/Data-Science research and open-source ML projects
 - 💬 **Ask me about:** Machine Learning, Data Science, technical writing, teaching, and turning ideas into MVPs
-- 📫 **Reach me:** [LinkedIn](https://www.linkedin.com/in/kmarsyad/) · [Email](mailto:muhammadarsyadv2@gmail.com) · [Portfolio](https://kmarsyad-portfolio.vercel.app/)
+- 📫 **Reach me:** [LinkedIn](https://www.linkedin.com/in/kmarsyad/) · [Email](mailto:muhammadarsyadv1@gmail.com) · [Portfolio](https://kmarsyad-portfolio.vercel.app/)
 
 <!-- ══════════════════════════ OPTIONAL PREMIUM WIDGETS (OPT-IN) ══════════════════════════ -->
 <details>
@@ -591,7 +591,7 @@ _These are commented out so nothing renders broken. Uncomment a block after addi
   <a href="https://www.linkedin.com/in/kmarsyad/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:muhammadarsyadv2@gmail.com">
+  <a href="mailto:muhammadarsyadv1@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://kmarsyad-portfolio.vercel.app/">
