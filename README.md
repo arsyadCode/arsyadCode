@@ -337,10 +337,7 @@
 <!-- ══════════════════════════ PROFESSIONAL TIMELINE ══════════════════════════ -->
 ## 🧗 Professional Timeline
 
-<!--
-  TODO: Fill in your real dates/details below. Example rows are placeholders —
-  edit or delete each one. Keep the table format for a clean timeline look.
--->
+<!-- To add a new milestone, copy a <tr> row and fill in the year, milestone, and type. -->
 <table>
   <tr>
     <td align="center"><b>Year</b></td>
@@ -362,36 +359,24 @@
     <td>Bangkit Academy — Certified Independent Study of Machine Learning (TuRu capstone)</td>
     <td>📜 Certification</td>
   </tr>
-  <tr>
-    <td align="center"><!-- TODO: year --></td>
-    <td><!-- TODO: e.g. B.CS, Universitas Pertamina — thesis title --></td>
-    <td>🎓 Education</td>
-  </tr>
-  <tr>
-    <td align="center"><!-- TODO: year --></td>
-    <td><!-- TODO: your current role / position --></td>
-    <td>💼 Experience</td>
-  </tr>
 </table>
 
 <!-- ══════════════════════════ ACHIEVEMENT DASHBOARD ══════════════════════════ -->
 ## 🏅 Achievement Dashboard
 
-<!-- TODO: Replace the example entries below with your real achievements, or remove rows you don't have. -->
+<!-- To add an achievement, insert a new <li> item under the relevant category. -->
 <table>
   <tr>
     <td valign="top" width="50%">
       <h4>🏆 Competitions &amp; Awards</h4>
       <ul>
         <li>Agora Hackathon 2022 — Participant</li>
-        <li><!-- TODO: award / rank / event --></li>
       </ul>
     </td>
     <td valign="top" width="50%">
       <h4>📜 Certifications</h4>
       <ul>
         <li>Bangkit Academy — Machine Learning Path</li>
-        <li><!-- TODO: certification (issuer, year) --></li>
       </ul>
     </td>
   </tr>
@@ -399,15 +384,13 @@
     <td valign="top">
       <h4>🔬 Research &amp; Publications</h4>
       <ul>
-        <li>Undergraduate thesis — <!-- TODO: title --></li>
-        <li><!-- TODO: publication / DOI --></li>
+        <li>Undergraduate thesis — Universitas Pertamina</li>
       </ul>
     </td>
     <td valign="top">
       <h4>🎤 Leadership &amp; Speaking</h4>
       <ul>
         <li>ML Practicum — teaching materials for UPER CS</li>
-        <li><!-- TODO: leadership role / talk --></li>
       </ul>
     </td>
   </tr>
