@@ -1,0 +1,28 @@
+name: Generate Profile Summary Cards
+
+# Generates self-hosted stat cards (stats, languages, productive-time, etc.) and
+# commits them into this repo under profile-summary-card-output/. The README then
+# serves them from raw.githubusercontent — no external live service, so they can
+# never be rate-limited (fixes the 402 errors from the public stats/trophy widgets).
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # every 12 hours
+  workflow_dispatch:         # manual "Run workflow" button
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: "main"
+          UTC_OFFSET: 7          # WIB (Asia/Jakarta)
+          AUTO_PUSH: true
