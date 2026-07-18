@@ -1,18 +1,15 @@
 <!--
-════════════════════════════════════════════════════════════════════════════
-  GitHub Profile README — Kiagus Muhammad Arsyad (@arsyadCode)
-  ----------------------------------------------------------------------------
+  GitHub Profile README for Kiagus Muhammad Arsyad (@arsyadCode)
   Sections are labeled with HTML comments for easy editing.
-  Placeholders you should fill in are marked:  <!-- TODO: ... -->
-  Optional widgets that need a handle/secret are wrapped in comment blocks
-  labeled  <!-- OPT-IN ... -->  — uncomment once configured.
+  Placeholders you should fill in are marked with the word TODO.
+  Optional widgets that need a handle or secret are wrapped in comment
+  blocks labeled OPT-IN; uncomment once configured.
   Theme: Tokyo Night (kept consistent across every card).
-════════════════════════════════════════════════════════════════════════════
 -->
 
 <!-- ══════════════════════════ HERO / HEADER ══════════════════════════ -->
 <a href="https://github.com/arsyadCode">
-  <img src="./Banner.png" alt="Kiagus Muhammad Arsyad — banner" width="100%" />
+  <img src="./Banner.jpg" alt="Kiagus Muhammad Arsyad — banner" width="100%" />
 </a>
 
 <p align="center">
