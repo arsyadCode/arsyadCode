@@ -1,4 +1,5 @@
 .serena/.gitignore
 .serena/project.yml
 .claude
+promo/*
 LinkedinCV.pdf
