@@ -34,25 +34,31 @@
 </p>
 
 <!-- ══════════════════════════ QUICK BADGES ══════════════════════════ -->
+<!--
+  The badges below are SELF-HOSTED (./badges/*.svg) — generated with badge-maker
+  (the same library shields.io uses) because img.shields.io intermittently
+  rate-limits and fails to render them. Followers/Stars are refreshed every 12h
+  by .github/workflows/profile-summary-cards.yml.
+-->
 <p align="center">
   <a href="https://www.linkedin.com/in/kmarsyad/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="./badges/linkedin.svg" alt="LinkedIn" />
   </a>
   <a href="mailto:muhammadarsyadv1@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="./badges/email.svg" alt="Email" />
   </a>
   <a href="https://kmarsyad-portfolio.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Portfolio" />
+    <img src="./badges/portfolio.svg" alt="Portfolio" />
   </a>
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=arsyadCode&label=Profile+Views&color=7aa2f7&style=flat-square" alt="Profile views" />
   <a href="https://github.com/arsyadCode?tab=followers">
-    <img src="https://img.shields.io/github/followers/arsyadCode?label=Followers&style=flat-square&color=7aa2f7&logo=github" alt="Followers" />
+    <img src="./badges/followers.svg" alt="Followers" />
   </a>
   <a href="https://github.com/arsyadCode?tab=repositories">
-    <img src="https://img.shields.io/github/stars/arsyadCode?label=Stars&style=flat-square&color=7aa2f7&logo=github" alt="Stars" />
+    <img src="./badges/stars.svg" alt="Stars" />
   </a>
 </p>
 
@@ -144,8 +150,8 @@
     <td valign="top"><b>🌐 Web &amp; App</b></td>
     <td>
       <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
-      <img src="https://img.shields.io/badge/Plotly%20Dash-119DFF?style=flat-square&logo=plotly&logoColor=white" alt="Plotly Dash" />
-      <img src="https://img.shields.io/badge/Panel-527FFF?style=flat-square&logo=holoviz&logoColor=white" alt="Panel" />
+      <img src="./badges/plotly-dash.svg" alt="Plotly Dash" />
+      <img src="./badges/panel.svg" alt="Panel" />
       <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" />
       <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
       <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
@@ -173,9 +179,9 @@
   <tr>
     <td valign="top"><b>📝 Docs &amp; QA</b></td>
     <td>
-      <img src="https://img.shields.io/badge/Technical%20Writing-2ea043?style=flat-square&logo=readme&logoColor=white" alt="Technical Writing" />
+      <img src="./badges/tech-writing.svg" alt="Technical Writing" />
       <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white" alt="Markdown" />
-      <img src="https://img.shields.io/badge/Quality%20Assurance-8957e5?style=flat-square&logo=testinglibrary&logoColor=white" alt="QA" />
+      <img src="./badges/qa.svg" alt="QA" />
       <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" alt="Postman" />
       <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white" alt="Notion" />
     </td>
@@ -242,8 +248,8 @@
       <td><b>DCA Production Forecasting</b><br/><sub>Pertamina Hulu Mahakam</sub></td>
       <td>Web app for Decline Curve Analysis — model development, ML integration, and interactive result visualization.</td>
       <td>
-        <img src="https://img.shields.io/badge/-Plotly%20Dash-119DFF?style=flat-square&logo=plotly&logoColor=white" alt="Dash" />
-        <img src="https://img.shields.io/badge/-Panel-527FFF?style=flat-square" alt="Panel" />
+        <img src="./badges/plotly-dash.svg" alt="Dash" />
+        <img src="./badges/panel.svg" alt="Panel" />
         <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Py" />
       </td>
       <td align="center"><img src="https://img.shields.io/badge/Professional-0969da?style=flat-square" alt="Professional" /></td>
@@ -271,7 +277,7 @@
       <td><b>SIAKUPer QA</b><br/><sub>Universitas Pertamina</sub></td>
       <td>Designed and executed comprehensive test cases validating the academic information system against business requirements.</td>
       <td>
-        <img src="https://img.shields.io/badge/-QA%2FTesting-8957e5?style=flat-square&logo=testinglibrary&logoColor=white" alt="QA" />
+        <img src="./badges/qa-testing.svg" alt="QA" />
       </td>
       <td align="center"><img src="https://img.shields.io/badge/Professional-0969da?style=flat-square" alt="Professional" /></td>
     </tr>
@@ -437,6 +443,7 @@
 <p align="center">
   <img height="200em" src="https://raw.githubusercontent.com/arsyadCode/arsyadCode/main/profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub stats" />
   <img height="200em" src="https://raw.githubusercontent.com/arsyadCode/arsyadCode/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Top languages" />
+  <img height="200em" src="https://raw.githubusercontent.com/arsyadCode/arsyadCode/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most committed languages" />
 </p>
 
 <!-- Streak (live service — DenverCoder1, actively maintained) -->
@@ -589,13 +596,13 @@ _These are commented out so nothing renders broken. Uncomment a block after addi
 
 <p align="center">
   <a href="https://www.linkedin.com/in/kmarsyad/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="./badges/linkedin.svg" alt="LinkedIn" />
   </a>
   <a href="mailto:muhammadarsyadv1@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="./badges/gmail.svg" alt="Email" />
   </a>
   <a href="https://kmarsyad-portfolio.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Portfolio" />
+    <img src="./badges/portfolio.svg" alt="Portfolio" />
   </a>
   <a href="https://github.com/arsyadCode">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />

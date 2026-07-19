@@ -29,3 +29,31 @@ jobs:
           BRANCH_NAME: "main"
           UTC_OFFSET: 7          # WIB (Asia/Jakarta)
           AUTO_PUSH: true
+
+      # The README serves badges/followers.svg and badges/stars.svg self-hosted
+      # (img.shields.io intermittently fails to render on the profile page).
+      # Re-fetch them here; only overwrite when shields returns a valid badge,
+      # so a shields outage leaves the last good (cached) badge in place.
+      - name: Refresh dynamic badges (followers / stars)
+        run: |
+          refresh() {
+            url="$1"; dest="$2"
+            if curl -fsS --retry 3 --max-time 30 "$url" -o /tmp/badge.svg \
+               && grep -q "<svg" /tmp/badge.svg \
+               && ! grep -qi "inaccessible\|invalid" /tmp/badge.svg; then
+              mv /tmp/badge.svg "$dest"
+            else
+              echo "shields fetch failed for $dest — keeping cached copy"
+            fi
+          }
+          refresh "https://img.shields.io/github/followers/${{ github.repository_owner }}?label=Followers&style=flat-square&color=7aa2f7&logo=github&logoColor=white" badges/followers.svg
+          refresh "https://img.shields.io/github/stars/${{ github.repository_owner }}?label=Stars&style=flat-square&color=7aa2f7&logo=github&logoColor=white" badges/stars.svg
+
+      - name: Commit refreshed badges
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
+          git add badges/followers.svg badges/stars.svg
+          git diff --cached --quiet || git commit -m "Refresh follower/star badges"
+          git push origin main
