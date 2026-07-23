@@ -20,15 +20,21 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # CARDS_TOKEN (classic PAT, read:user scope) is preferred: the default
+      # GITHUB_TOKEN is an app installation token, and GitHub now rejects the
+      # user-level GraphQL fields the profile-details/stats cards need with
+      # "Resource not accessible by integration" — upstream issue #311. Without
+      # a PAT those two cards silently fail to generate; the commit step below
+      # keeps the last good copies rather than letting them disappear.
       - name: Generate summary cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.CARDS_TOKEN || secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
           BRANCH_NAME: "main"
           UTC_OFFSET: 7          # WIB (Asia/Jakarta)
-          AUTO_PUSH: true
+          AUTO_PUSH: false       # committed by the step below, non-destructively
 
       # The README serves badges/followers.svg and badges/stars.svg self-hosted
       # (img.shields.io intermittently fails to render on the profile page).
@@ -49,11 +55,26 @@ jobs:
           refresh "https://img.shields.io/github/followers/${{ github.repository_owner }}?label=Followers&style=flat-square&color=7aa2f7&logo=github&logoColor=white" badges/followers.svg
           refresh "https://img.shields.io/github/stars/${{ github.repository_owner }}?label=Stars&style=flat-square&color=7aa2f7&logo=github&logoColor=white" badges/stars.svg
 
-      - name: Commit refreshed badges
+      # --ignore-removal stages additions and modifications but never deletions.
+      # The card action starts with `rm -rf profile-summary-card-output/`, so any
+      # card it fails to regenerate would otherwise be committed as deleted and
+      # 404 in the README. This way a partial failure leaves the last good SVG in
+      # place — same "never render broken" rule as the badge refresh above.
+      - name: Commit cards and refreshed badges
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
-          git add badges/followers.svg badges/stars.svg
-          git diff --cached --quiet || git commit -m "Refresh follower/star badges"
-          git push origin main
+          git add --ignore-removal profile-summary-card-output badges
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+            exit 0
+          fi
+          git commit -m "Generate profile summary cards"
+          for attempt in 1 2 3; do
+            if git pull --rebase --autostash origin main && git push origin main; then
+              exit 0
+            fi
+            echo "push attempt $attempt failed — retrying"
+            sleep 5
+          done
+          exit 1
