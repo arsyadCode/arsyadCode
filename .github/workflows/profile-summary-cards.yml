@@ -34,6 +34,10 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
           BRANCH_NAME: "main"
           UTC_OFFSET: 7          # WIB (Asia/Jakarta)
+          # Comma-separated language names dropped from both language cards
+          # (1-repos-per-language and 2-most-commit-language). Notebooks are
+          # committed output, not hand-written code, so they distort the split.
+          EXCLUDE: "Jupyter Notebook"
           AUTO_PUSH: false       # committed by the step below, non-destructively
 
       # The README serves badges/followers.svg and badges/stars.svg self-hosted
