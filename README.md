@@ -47,7 +47,7 @@
   <a href="mailto:muhammadarsyadv1@gmail.com">
     <img src="./badges/email.svg" alt="Email" />
   </a>
-  <a href="https://kmarsyad-portfolio.vercel.app/">
+  <a href="https://kmarsyad-portfolio.netlify.app/">
     <img src="./badges/portfolio.svg" alt="Portfolio" />
   </a>
 </p>
@@ -533,7 +533,7 @@
 - 🔥 **Current focus:** clearer docs for open-source ML tools · experimenting with AI agents &amp; automation
 - 🤝 **Looking to collaborate on:** AI/Data-Science research and open-source ML projects
 - 💬 **Ask me about:** Machine Learning, Data Science, technical writing, teaching, and turning ideas into MVPs
-- 📫 **Reach me:** [LinkedIn](https://www.linkedin.com/in/kmarsyad/) · [Email](mailto:muhammadarsyadv1@gmail.com) · [Portfolio](https://kmarsyad-portfolio.vercel.app/)
+- 📫 **Reach me:** [LinkedIn](https://www.linkedin.com/in/kmarsyad/) · [Email](mailto:muhammadarsyadv1@gmail.com) · [Portfolio](https://kmarsyad-portfolio.netlify.app/)
 
 <!-- ══════════════════════════ OPTIONAL PREMIUM WIDGETS (OPT-IN) ══════════════════════════ -->
 <details>
@@ -601,7 +601,7 @@ _These are commented out so nothing renders broken. Uncomment a block after addi
   <a href="mailto:muhammadarsyadv1@gmail.com">
     <img src="./badges/gmail.svg" alt="Email" />
   </a>
-  <a href="https://kmarsyad-portfolio.vercel.app/">
+  <a href="https://kmarsyad-portfolio.netlify.app/">
     <img src="./badges/portfolio.svg" alt="Portfolio" />
   </a>
   <a href="https://github.com/arsyadCode">
